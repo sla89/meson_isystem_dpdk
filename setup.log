@@ -1,0 +1,350 @@
+The Meson build system
+Version: 1.5.1
+Source dir: /home/sla89/dev/github/meson_isystem_dpdk
+Build dir: /home/sla89/dev/github/meson_isystem_dpdk/build
+Build type: native build
+Project name: meson_demo
+Project version: 0.1
+C++ compiler for the host machine: c++ (gcc 11.4.0 "c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C++ linker for the host machine: c++ ld.bfd 2.38
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+
+Executing subproject dpdk 
+
+dpdk| Program cat found: YES (/usr/bin/cat)
+dpdk| Project name: DPDK
+dpdk| Project version: 24.03.0
+dpdk| C compiler for the host machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+dpdk| C linker for the host machine: cc ld.bfd 2.38
+dpdk| Message: ## Building in Developer Mode ##
+dpdk| Program pkg-config found: YES (/usr/bin/pkg-config)
+dpdk| Program check-symbols.sh found: YES (/home/sla89/dev/github/meson_isystem_dpdk/subprojects/dpdk/buildtools/check-symbols.sh)
+dpdk| Program options-ibverbs-static.sh found: YES (/home/sla89/dev/github/meson_isystem_dpdk/subprojects/dpdk/buildtools/options-ibverbs-static.sh)
+dpdk| Program python3 found: YES (/home/sla89/dev/github/meson_isystem_dpdk/.venv/bin/python)
+dpdk| Program cat found: YES (/usr/bin/cat)
+dpdk| Compiler for C supports arguments -march=native: YES
+dpdk| Checking for size of "void *" : 8
+dpdk| Checking for size of "void *" : 8 (cached)
+dpdk| Compiler for C supports link arguments -Wl,--undefined-version: NO
+dpdk| Library m found: YES
+dpdk| Library numa found: NO
+dpdk| Library fdt found: NO
+dpdk| Library execinfo found: NO
+dpdk| Has header "execinfo.h" : YES
+dpdk| Found pkg-config: YES (/usr/bin/pkg-config) 0.29.2
+dpdk| Run-time dependency libarchive found: NO (tried pkgconfig)
+dpdk| Run-time dependency libbsd found: NO (tried pkgconfig)
+dpdk| Run-time dependency jansson found: NO (tried pkgconfig)
+dpdk| Run-time dependency openssl found: YES 3.0.2
+dpdk| Run-time dependency libpcap found: YES 1.10.1
+dpdk| Has header "pcap.h" with dependency libpcap: YES
+dpdk| Compiler for C supports arguments -Wcast-qual: YES
+dpdk| Compiler for C supports arguments -Wdeprecated: YES
+dpdk| Compiler for C supports arguments -Wformat: YES
+dpdk| Compiler for C supports arguments -Wformat-nonliteral: YES
+dpdk| Compiler for C supports arguments -Wformat-security: YES
+dpdk| Compiler for C supports arguments -Wmissing-declarations: YES
+dpdk| Compiler for C supports arguments -Wmissing-prototypes: YES
+dpdk| Compiler for C supports arguments -Wnested-externs: YES
+dpdk| Compiler for C supports arguments -Wold-style-definition: YES
+dpdk| Compiler for C supports arguments -Wpointer-arith: YES
+dpdk| Compiler for C supports arguments -Wsign-compare: YES
+dpdk| Compiler for C supports arguments -Wstrict-prototypes: YES
+dpdk| Compiler for C supports arguments -Wundef: YES
+dpdk| Compiler for C supports arguments -Wwrite-strings: YES
+dpdk| Compiler for C supports arguments -Wno-address-of-packed-member: YES
+dpdk| Compiler for C supports arguments -Wno-packed-not-aligned: YES
+dpdk| Compiler for C supports arguments -Wno-missing-field-initializers: YES
+dpdk| Compiler for C supports arguments -Wno-zero-length-bounds: YES
+dpdk| Program objdump found: YES (/usr/bin/objdump)
+dpdk| Compiler for C supports arguments -mavx512f: YES
+dpdk| Checking if "AVX512 checking" compiles: YES
+dpdk| Fetching value of define "__SSE4_2__" : 1
+dpdk| Fetching value of define "__AES__" : 1
+dpdk| Fetching value of define "__AVX__" : 1
+dpdk| Fetching value of define "__AVX2__" : 1
+dpdk| Fetching value of define "__AVX512BW__" : (undefined)
+dpdk| Fetching value of define "__AVX512CD__" : (undefined)
+dpdk| Fetching value of define "__AVX512DQ__" : (undefined)
+dpdk| Fetching value of define "__AVX512F__" : (undefined)
+dpdk| Fetching value of define "__AVX512VL__" : (undefined)
+dpdk| Fetching value of define "__PCLMUL__" : 1
+dpdk| Fetching value of define "__RDRND__" : 1
+dpdk| Fetching value of define "__RDSEED__" : 1
+dpdk| Fetching value of define "__VPCLMULQDQ__" : 1
+dpdk| Compiler for C supports arguments -Wno-format-truncation: YES
+dpdk| Message: lib/log: Defining dependency "log"
+dpdk| Message: lib/kvargs: Defining dependency "kvargs"
+dpdk| Message: lib/telemetry: Defining dependency "telemetry"
+dpdk| Checking for function "getentropy" : NO
+dpdk| Message: lib/eal: Defining dependency "eal"
+dpdk| Message: lib/ring: Defining dependency "ring"
+dpdk| Message: lib/rcu: Defining dependency "rcu"
+dpdk| Message: lib/mempool: Defining dependency "mempool"
+dpdk| Message: lib/mbuf: Defining dependency "mbuf"
+dpdk| Fetching value of define "__PCLMUL__" : 1 (cached)
+dpdk| Fetching value of define "__AVX512F__" : (undefined) (cached)
+dpdk| Compiler for C supports arguments -mpclmul: YES
+dpdk| Compiler for C supports arguments -maes: YES
+dpdk| Compiler for C supports arguments -mavx512f: YES (cached)
+dpdk| Compiler for C supports arguments -mavx512bw: YES
+dpdk| Compiler for C supports arguments -mavx512dq: YES
+dpdk| Compiler for C supports arguments -mavx512vl: YES
+dpdk| Compiler for C supports arguments -mvpclmulqdq: YES
+dpdk| Compiler for C supports arguments -mavx2: YES
+dpdk| Compiler for C supports arguments -mavx: YES
+dpdk| Message: lib/net: Defining dependency "net"
+dpdk| Message: lib/meter: Defining dependency "meter"
+dpdk| Message: lib/ethdev: Defining dependency "ethdev"
+dpdk| Message: lib/pci: Defining dependency "pci"
+dpdk| Message: lib/cmdline: Defining dependency "cmdline"
+dpdk| Message: lib/hash: Defining dependency "hash"
+dpdk| Message: lib/stack: Defining dependency "stack"
+dpdk| Compiler for C supports arguments -Wno-format-truncation: YES (cached)
+dpdk| Message: drivers/bus/pci: Defining dependency "bus_pci"
+dpdk| Message: drivers/bus/vdev: Defining dependency "bus_vdev"
+dpdk| Message: drivers/mempool/ring: Defining dependency "mempool_ring"
+dpdk| Message: Disabling dma/* drivers: missing internal dependency "dmadev"
+dpdk| Message: drivers/net/af_packet: Defining dependency "net_af_packet"
+dpdk| Message: Disabling raw/* drivers: missing internal dependency "rawdev"
+dpdk| Message: Disabling crypto/* drivers: missing internal dependency "cryptodev"
+dpdk| Message: Disabling compress/* drivers: missing internal dependency "compressdev"
+dpdk| Message: Disabling regex/* drivers: missing internal dependency "regexdev"
+dpdk| Message: Disabling ml/* drivers: missing internal dependency "mldev"
+dpdk| Message: Disabling vdpa/* drivers: missing internal dependency "vhost"
+dpdk| Message: Disabling event/* drivers: missing internal dependency "eventdev"
+dpdk| Message: Disabling baseband/* drivers: missing internal dependency "bbdev"
+dpdk| Message: Disabling gpu/* drivers: missing internal dependency "gpudev"
+dpdk| Message: Missing dependency "pdump" for app "dumpcap"
+dpdk| Has header "sys/epoll.h" : YES
+dpdk| Message: Missing dependency "graph" for app "graph"
+dpdk| Message: Missing dependency "pdump" for app "pdump"
+dpdk| Message: Missing dependency "security" for app "proc-info"
+dpdk| Message: Missing dependency "acl" for app "test-acl"
+dpdk| Message: Missing dependency "bbdev" for app "test-bbdev"
+dpdk| Message: Missing dependency "compressdev" for app "test-compress-perf"
+dpdk| Message: Missing dependency "cryptodev" for app "test-crypto-perf"
+dpdk| Message: Missing dependency "dmadev" for app "test-dma-perf"
+dpdk| Message: Missing dependency "eventdev" for app "test-eventdev"
+dpdk| Message: Missing dependency "fib" for app "test-fib"
+dpdk| Message: Missing dependency "gpudev" for app "test-gpudev"
+dpdk| Message: Missing dependency "mldev" for app "test-mldev"
+dpdk| Message: Missing dependency "pipeline" for app "test-pipeline"
+dpdk| Message: Missing dependency "regexdev" for app "test-regex"
+dpdk| Message: Missing dependency "ipsec" for app "test-sad"
+dpdk| Message: Missing dependency "security" for app "test-security-perf"
+dpdk| Program doxygen found: NO
+dpdk| Program sphinx-build found: YES (/home/sla89/.local/bin/sphinx-build)
+dpdk| Configuring rte_build_config.h using configuration
+dpdk| Message: DPDK subproject linking: static
+dpdk| Message:
+dpdk| =================
+dpdk| Applications Enabled
+dpdk| =================
+
+dpdk| apps:
+
+
+dpdk| Message:
+dpdk| =================
+dpdk| Libraries Enabled
+dpdk| =================
+
+dpdk| libs:
+dpdk| log, kvargs, telemetry, eal, ring, rcu, mempool, mbuf,
+dpdk| net, meter, ethdev, pci, cmdline, hash, stack,
+
+dpdk| Message:
+dpdk| ===============
+dpdk| Drivers Enabled
+dpdk| ===============
+
+dpdk| common:
+
+dpdk| bus:
+dpdk| pci, vdev,
+dpdk| mempool:
+dpdk| ring,
+dpdk| net:
+dpdk| af_packet,
+
+dpdk| Message:
+dpdk| =================
+dpdk| Content Skipped
+dpdk| =================
+
+dpdk| apps:
+dpdk| dumpcap:	missing internal dependency, "pdump"
+dpdk| graph:	missing internal dependency, "graph"
+dpdk| pdump:	missing internal dependency, "pdump"
+dpdk| proc-info:	missing internal dependency, "security"
+dpdk| test-acl:	missing internal dependency, "acl"
+dpdk| test-bbdev:	missing internal dependency, "bbdev"
+dpdk| test-cmdline:	explicitly disabled via build config
+dpdk| test-compress-perf:	missing internal dependency, "compressdev"
+dpdk| test-crypto-perf:	missing internal dependency, "cryptodev"
+dpdk| test-dma-perf:	missing internal dependency, "dmadev"
+dpdk| test-eventdev:	missing internal dependency, "eventdev"
+dpdk| test-fib:	missing internal dependency, "fib"
+dpdk| test-flow-perf:	explicitly disabled via build config
+dpdk| test-gpudev:	missing internal dependency, "gpudev"
+dpdk| test-mldev:	missing internal dependency, "mldev"
+dpdk| test-pipeline:	missing internal dependency, "pipeline"
+dpdk| test-pmd:	explicitly disabled via build config
+dpdk| test-regex:	missing internal dependency, "regexdev"
+dpdk| test-sad:	missing internal dependency, "ipsec"
+dpdk| test-security-perf:	missing internal dependency, "security"
+
+dpdk| libs:
+dpdk| argparse:	not in enabled libraries build config
+dpdk| metrics:	not in enabled libraries build config
+dpdk| timer:	not in enabled libraries build config
+dpdk| acl:	not in enabled libraries build config
+dpdk| bbdev:	not in enabled libraries build config
+dpdk| bitratestats:	not in enabled libraries build config
+dpdk| bpf:	not in enabled libraries build config
+dpdk| cfgfile:	not in enabled libraries build config
+dpdk| compressdev:	not in enabled libraries build config
+dpdk| cryptodev:	not in enabled libraries build config
+dpdk| distributor:	not in enabled libraries build config
+dpdk| dmadev:	not in enabled libraries build config
+dpdk| efd:	not in enabled libraries build config
+dpdk| eventdev:	not in enabled libraries build config
+dpdk| dispatcher:	not in enabled libraries build config
+dpdk| gpudev:	not in enabled libraries build config
+dpdk| gro:	not in enabled libraries build config
+dpdk| gso:	not in enabled libraries build config
+dpdk| ip_frag:	not in enabled libraries build config
+dpdk| jobstats:	not in enabled libraries build config
+dpdk| latencystats:	not in enabled libraries build config
+dpdk| lpm:	not in enabled libraries build config
+dpdk| member:	not in enabled libraries build config
+dpdk| pcapng:	not in enabled libraries build config
+dpdk| power:	not in enabled libraries build config
+dpdk| rawdev:	not in enabled libraries build config
+dpdk| regexdev:	not in enabled libraries build config
+dpdk| mldev:	not in enabled libraries build config
+dpdk| rib:	not in enabled libraries build config
+dpdk| reorder:	not in enabled libraries build config
+dpdk| sched:	not in enabled libraries build config
+dpdk| security:	not in enabled libraries build config
+dpdk| vhost:	not in enabled libraries build config
+dpdk| ipsec:	not in enabled libraries build config
+dpdk| pdcp:	not in enabled libraries build config
+dpdk| fib:	not in enabled libraries build config
+dpdk| port:	not in enabled libraries build config
+dpdk| pdump:	not in enabled libraries build config
+dpdk| table:	not in enabled libraries build config
+dpdk| pipeline:	not in enabled libraries build config
+dpdk| graph:	not in enabled libraries build config
+dpdk| node:	not in enabled libraries build config
+
+dpdk| drivers:
+dpdk| common/cpt:	not in enabled drivers build config
+dpdk| common/dpaax:	not in enabled drivers build config
+dpdk| common/iavf:	not in enabled drivers build config
+dpdk| common/idpf:	not in enabled drivers build config
+dpdk| common/ionic:	not in enabled drivers build config
+dpdk| common/mvep:	not in enabled drivers build config
+dpdk| common/octeontx:	not in enabled drivers build config
+dpdk| bus/auxiliary:	not in enabled drivers build config
+dpdk| bus/cdx:	not in enabled drivers build config
+dpdk| bus/dpaa:	not in enabled drivers build config
+dpdk| bus/fslmc:	not in enabled drivers build config
+dpdk| bus/ifpga:	not in enabled drivers build config
+dpdk| bus/platform:	not in enabled drivers build config
+dpdk| bus/uacce:	not in enabled drivers build config
+dpdk| bus/vmbus:	not in enabled drivers build config
+dpdk| common/cnxk:	not in enabled drivers build config
+dpdk| common/mlx5:	not in enabled drivers build config
+dpdk| common/nfp:	not in enabled drivers build config
+dpdk| common/nitrox:	not in enabled drivers build config
+dpdk| common/qat:	not in enabled drivers build config
+dpdk| common/sfc_efx:	not in enabled drivers build config
+dpdk| mempool/bucket:	not in enabled drivers build config
+dpdk| mempool/cnxk:	not in enabled drivers build config
+dpdk| mempool/dpaa:	not in enabled drivers build config
+dpdk| mempool/dpaa2:	not in enabled drivers build config
+dpdk| mempool/octeontx:	not in enabled drivers build config
+dpdk| mempool/stack:	not in enabled drivers build config
+dpdk| dma/*:	missing internal dependency, "dmadev"
+dpdk| net/af_xdp:	not in enabled drivers build config
+dpdk| net/ark:	not in enabled drivers build config
+dpdk| net/atlantic:	not in enabled drivers build config
+dpdk| net/avp:	not in enabled drivers build config
+dpdk| net/axgbe:	not in enabled drivers build config
+dpdk| net/bnx2x:	not in enabled drivers build config
+dpdk| net/bnxt:	not in enabled drivers build config
+dpdk| net/bonding:	not in enabled drivers build config
+dpdk| net/cnxk:	not in enabled drivers build config
+dpdk| net/cpfl:	not in enabled drivers build config
+dpdk| net/cxgbe:	not in enabled drivers build config
+dpdk| net/dpaa:	not in enabled drivers build config
+dpdk| net/dpaa2:	not in enabled drivers build config
+dpdk| net/e1000:	not in enabled drivers build config
+dpdk| net/ena:	not in enabled drivers build config
+dpdk| net/enetc:	not in enabled drivers build config
+dpdk| net/enetfec:	not in enabled drivers build config
+dpdk| net/enic:	not in enabled drivers build config
+dpdk| net/failsafe:	not in enabled drivers build config
+dpdk| net/fm10k:	not in enabled drivers build config
+dpdk| net/gve:	not in enabled drivers build config
+dpdk| net/hinic:	not in enabled drivers build config
+dpdk| net/hns3:	not in enabled drivers build config
+dpdk| net/i40e:	not in enabled drivers build config
+dpdk| net/iavf:	not in enabled drivers build config
+dpdk| net/ice:	not in enabled drivers build config
+dpdk| net/idpf:	not in enabled drivers build config
+dpdk| net/igc:	not in enabled drivers build config
+dpdk| net/ionic:	not in enabled drivers build config
+dpdk| net/ipn3ke:	not in enabled drivers build config
+dpdk| net/ixgbe:	not in enabled drivers build config
+dpdk| net/mana:	not in enabled drivers build config
+dpdk| net/memif:	not in enabled drivers build config
+dpdk| net/mlx4:	not in enabled drivers build config
+dpdk| net/mlx5:	not in enabled drivers build config
+dpdk| net/mvneta:	not in enabled drivers build config
+dpdk| net/mvpp2:	not in enabled drivers build config
+dpdk| net/netvsc:	not in enabled drivers build config
+dpdk| net/nfb:	not in enabled drivers build config
+dpdk| net/nfp:	not in enabled drivers build config
+dpdk| net/ngbe:	not in enabled drivers build config
+dpdk| net/null:	not in enabled drivers build config
+dpdk| net/octeontx:	not in enabled drivers build config
+dpdk| net/octeon_ep:	not in enabled drivers build config
+dpdk| net/pcap:	not in enabled drivers build config
+dpdk| net/pfe:	not in enabled drivers build config
+dpdk| net/qede:	not in enabled drivers build config
+dpdk| net/ring:	not in enabled drivers build config
+dpdk| net/sfc:	not in enabled drivers build config
+dpdk| net/softnic:	not in enabled drivers build config
+dpdk| net/tap:	not in enabled drivers build config
+dpdk| net/thunderx:	not in enabled drivers build config
+dpdk| net/txgbe:	not in enabled drivers build config
+dpdk| net/vdev_netvsc:	not in enabled drivers build config
+dpdk| net/vhost:	not in enabled drivers build config
+dpdk| net/virtio:	not in enabled drivers build config
+dpdk| net/vmxnet3:	not in enabled drivers build config
+dpdk| raw/*:	missing internal dependency, "rawdev"
+dpdk| crypto/*:	missing internal dependency, "cryptodev"
+dpdk| compress/*:	missing internal dependency, "compressdev"
+dpdk| regex/*:	missing internal dependency, "regexdev"
+dpdk| ml/*:	missing internal dependency, "mldev"
+dpdk| vdpa/*:	missing internal dependency, "vhost"
+dpdk| event/*:	missing internal dependency, "eventdev"
+dpdk| baseband/*:	missing internal dependency, "bbdev"
+dpdk| gpu/*:	missing internal dependency, "gpudev"
+
+
+dpdk| Build targets in project: 67
+dpdk| Subproject dpdk finished.
+
+Build targets in project: 68
+
+meson_demo 0.1
+
+  Subprojects
+    dpdk: YES
+
+Found ninja-1.10.1 at /usr/bin/ninja
